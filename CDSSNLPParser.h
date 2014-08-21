@@ -1,18 +1,9 @@
-//==============================================================================================
-//	FILENAME	: CDSSNLPParser.h
-//	PROJECT		: COMHelper
-//	AUTHOR		: Yanjie Chen
-//	CREATION	: 2014-02-13
-//	Copyright (C) MicroStrategy, Inc. 2014
-//==============================================================================================
-
 #ifndef CDSSNLPParser_h
 #define CDSSNLPParser_h 1
 
 
 #include "resource.h"
 #include "ATL/CComObjectRootExM.h"
-
 
 #include "DSSNode/CDSSNode.h"
 #include "Base/Defines/RefContainer.h"
@@ -26,8 +17,6 @@ class CDSSNLPParser : public CComCoClass<CDSSNLPParser,&CLSID_DSSNLPParser>,
 	public ICDSSNLPParser,
 	public CComObjectRootEx_M_NoLock
 {
-
-
 public:
 
 	CDSSNLPParser();
@@ -83,6 +72,5 @@ private:
 	CComPtr<ICDSSTemplate> mpDataTemplate;
 	CComPtr<ICDSSFilter> mpDataFilter;
 };
-
 
 #endif
