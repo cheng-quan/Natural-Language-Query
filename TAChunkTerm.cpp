@@ -1,15 +1,3 @@
-/*
-** Copyright 2014, MicroStrategy.Inc
-** All rights reserved.
-**
-**   File Name: TAChunkTerm.cpp 
-** Description: record term information in Salience Chunk 
-**      Author: Cheng Quan
-**     Created: 2014-02-28
-**    Modifier: Cheng Quan
-**    Modified: 2014-02-28
-*/
-
 #include "TAChunkTerm.h"
 
 using namespace std;
