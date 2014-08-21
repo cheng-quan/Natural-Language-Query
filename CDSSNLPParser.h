@@ -1,7 +1,6 @@
 #ifndef CDSSNLPParser_h
 #define CDSSNLPParser_h 1
 
-
 #include "resource.h"
 #include "ATL/CComObjectRootExM.h"
 
